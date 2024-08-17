@@ -110,12 +110,22 @@ export default function Hero() {
                     Discover how Deskree provides secure and robust scalability
                     and integration for large scale businesses.{" "}
                   </Typography>
-                  <Typography mt={"1em"} variant="body2" color="white">
-                    <Stack direction={"row"} alignItems={"center"}>
+                  <Stack direction="row" alignItems="center">
+                    <Box
+                      sx={{
+                        display: "flex",
+                        alignItems: "center",
+                        mr: 1,
+                        color: "white",
+                      }}
+                    >
                       <CheckCircleIcon />
+                    </Box>
+                    <Typography variant="body2" color="white">
                       SOC 2 Type 11, GDPR & HIPPA Compliant
-                    </Stack>
-                  </Typography>
+                    </Typography>
+                  </Stack>
+
                   <Typography mt={"1em"} variant="body2" color="white">
                     <ArrowForwardIos />
                   </Typography>
@@ -123,7 +133,7 @@ export default function Hero() {
               </CardActionArea>{" "}
             </Card>
           </Box>
-          <Box sx={{ display: { sm: "none", md:"block" } }}>
+          <Box sx={{ display: { sm: "none", md: "block" } }}>
             <Card sx={{ minHeight: 300 }}>
               <CardMedia
                 component="img"
@@ -170,7 +180,7 @@ export default function Hero() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          textAlign: "center"
+          textAlign: "center",
         }}
       >
         <Typography variant="h4">
