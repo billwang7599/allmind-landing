@@ -5,8 +5,11 @@ This project is a clone of the landing page found at [Deskree](https://www.deskr
 
 ## How to use
 
+### Vercel
+Access it using the [Vercel link](https://allmind-landing.vercel.app/). 
 <!-- #default-branch-switch -->
 
+### Download
 ```bash
 git clone https://github.com/billwang7599/allmind-landing.git
 cd allmind-landing
