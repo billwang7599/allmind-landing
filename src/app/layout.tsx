@@ -31,6 +31,16 @@ const theme = createTheme({
         },
       },
     },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          textDecoration: "none", // Remove underline by default
+          "&:hover": {
+            textDecoration: "none", // Optional: Remove underline on hover
+          },
+        },
+      },
+    },
   },
 });
 
